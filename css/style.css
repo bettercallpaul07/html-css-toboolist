@@ -40,7 +40,8 @@ header {
     margin: 0 auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    padding: 20px;
+    padding: 15px;
+    padding-left: 50px;
 }
 
 #space {
@@ -48,16 +49,75 @@ header {
 }
 
 .button-style-task {
-    border-radius: 2px;
+    padding: 5px;
+    border-radius: 5px;
     background-color: lightblue;
     color: white;
-
-
+    border: 1px solid lightblue;
+    
 }
 
 .button-style-section {
-    border-radius: 2px;
+    padding: 5px;
+    border-radius: 5px;
     background-color: white;
     color: grey;
+    border: 1px solid lightblue;
+
 
 }
+
+.arrow {
+    content: "\9660";
+
+}
+
+.title-task {
+    font-size: 1.5em;
+
+}
+
+.title-task::before {
+    content: '\25BC';
+    font-size: 16px;
+}
+
+.complete::before {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    color: greenyellow;
+    border-radius: 50%;
+    border-color: greenyellow;
+    content: "\2714";
+}
+
+
+.uncomplete::before {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    color: red;
+    border-radius: 50%;
+    border-color: red;
+    content: "\2718";
+}
+
+.filter {
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: fit-content;
+    background-color: lightblue;
+    border: 1px solid lightblue;
+}
+
+
+
+ul {
+    list-style: none;
+  }
+
+  li {
+    padding: 10px;
+  }
