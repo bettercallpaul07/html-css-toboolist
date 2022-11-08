@@ -6,26 +6,26 @@
 }
 
 body {
-    background-color: lightgrey;
+    background-color: lightgray;
 }
 
 header {
-    height: 150px;
-}
+    height: 200px;
 
+}
 
 
 .container {
     background-color: white;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
-#site-name {
-    font-size: 3em;
-}
 
 .container-main {
     background-color: white;
-    height: 650px;
+    height: 600px;
     width: 50%;
     margin: 0 auto;
     border-bottom-left-radius: 10px;
@@ -86,11 +86,23 @@ header {
     height: 25px;
     width: 25px;
     background-color: white;
-    color: greenyellow;
+    color: #6bc3ad;
     border-radius: 50%;
-    border-color: greenyellow;
-    content: "\2714";
+    border-color: #6bc3ad;
+    border: 1px solid;
+    padding: 1px;
+    content: "\2713";
+    font-size: 8px;
 }
+
+.complete {
+}
+
+h1 {
+    display: inline-block;
+    font-size: 3em;
+}
+
 
 
 .uncomplete::before {
@@ -100,25 +112,27 @@ header {
     color: red;
     border-radius: 50%;
     border-color: red;
-    content: "\2718";
+    border: 1px solid;
+    padding: 1px;
+    content: "\2716";
+    font-size: 8px;
 }
 
 .filter-editorial {
     border-radius: 10px;
     text-align: center;
     color: white;
-    width: 100px;
+    width: fit-content;
     background-color: lightblue;
     border: 1px solid lightblue;
     padding: 5px;
-    font-size: 16px;
 }
 
 .filter-goals {
     border-radius: 10px;
     text-align: center;
     color: white;
-    width: 100px;
+    width: fit-content;
     background-color: purple;
     border: 1px solid purple;
     padding: 5px;
@@ -139,33 +153,30 @@ header {
     border-radius: 10px;
     text-align: center;
     color: white;
-    width: 100px;
+    width: fit-content;
     background-color: pink;
     border: 1px solid pink;
     padding: 5px;
-    font-size: 16px;
 }
 
 .filter-mobile {
     border-radius: 10px;
     text-align: center;
     color: white;
-    width: 100px;
+    width: fit-content;
     background-color: orange;
     border: 1px solid orange;
     padding: 5px;
-    font-size: 16px;
 }
 
 .filter-sales {
     border-radius: 10px;
     text-align: center;
     color: white;
-    width: 100px;
+    width: fit-content;
     background-color: lightgreen;
     border: 1px solid lightgreen;
     padding: 5px;
-    font-size: 16px;
 }
 
 
