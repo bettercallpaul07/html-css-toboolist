@@ -30,6 +30,7 @@ header {
     margin: 0 auto;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    padding: 50px;
 }
 
 .button-bar {
@@ -40,3 +41,13 @@ header {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
+#space {
+        margin: 3px auto;
+}
+
+/* .button-style-add {
+    border-radius: 2px;
+    margin: 30%;
+
+} */
