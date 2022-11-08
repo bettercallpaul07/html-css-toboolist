@@ -40,14 +40,24 @@ header {
     margin: 0 auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    padding: 20px;
 }
 
 #space {
         margin: 3px auto;
 }
 
-/* .button-style-add {
+.button-style-task {
     border-radius: 2px;
-    margin: 30%;
+    background-color: lightblue;
+    color: white;
 
-} */
+
+}
+
+.button-style-section {
+    border-radius: 2px;
+    background-color: white;
+    color: grey;
+
+}
