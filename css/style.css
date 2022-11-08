@@ -103,13 +103,70 @@ header {
     content: "\2718";
 }
 
-.filter {
+.filter-editorial {
     border-radius: 10px;
     text-align: center;
     color: white;
     width: fit-content;
     background-color: lightblue;
     border: 1px solid lightblue;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.filter-goals {
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: fit-content;
+    background-color: purple;
+    border: 1px solid purple;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.filter-recutriting {
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: fit-content;
+    background-color: green;
+    border: 1px solid green;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.filter-website {
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: fit-content;
+    background-color: pink;
+    border: 1px solid pink;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.filter-mobile {
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: fit-content;
+    background-color: orange;
+    border: 1px solid orange;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.filter-sales {
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: fit-content;
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+    padding: 5px;
+    font-size: 16px;
 }
 
 
