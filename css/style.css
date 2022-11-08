@@ -4,3 +4,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: lightgrey;
+}
+
+header {
+    height: 150px;
+}
+
+
+.container {
+    background-color: white;
+}
+
+#site-name {
+    font-size: 3em;
+}
