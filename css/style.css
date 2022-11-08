@@ -14,10 +14,29 @@ header {
 }
 
 
+
 .container {
     background-color: white;
 }
 
 #site-name {
     font-size: 3em;
+}
+
+.container-main {
+    background-color: white;
+    height: 650px;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.button-bar {
+    background-color: white;
+    height: 50px;
+    width: 50%;
+    margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
